@@ -45,6 +45,7 @@ dependencies {
     // Các dịch vụ sử dụng
     implementation 'com.google.firebase:firebase-auth' // Xác thực đăng nhập
     implementation 'com.google.firebase:firebase-firestore' // Cơ sở dữ liệu NoSQL
-    implementation 'com.google.firebase:firebase-storage' // Lưu trữ hình ảnh
+    implementation 'com.google.firebase:firebase-storage'
+    implementation 'com.cloudinary:cloudinary-android:3.1.2' // Lưu trữ hình ảnh
 
 }
