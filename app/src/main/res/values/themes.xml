@@ -1,9 +1,38 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.BTLPTUDDĐ_Nhóm11" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.CozyKey"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- PRIMARY -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+
+        <!-- SECONDARY -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- BACKGROUND -->
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- STATUS BAR -->
+        <item name="android:statusBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- NAVIGATION BAR -->
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- DEFAULT ACCENT -->
+        <item name="android:colorAccent">@color/primary</item>
+
+        <!-- BUTTON -->
+        <item name="materialButtonStyle">
+            @style/Widget.CozyKey.Button.Primary
+        </item>
+
     </style>
 
-    <style name="Theme.BTLPTUDDĐ_Nhóm11" parent="Base.Theme.BTLPTUDDĐ_Nhóm11" />
 </resources>
