@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+    <!-- PRIMARY COLORS -->
+    <color name="primary">#475C87</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D8E2FF</color>
+    <color name="primary_fixed">#D8E2FF</color>
+    <color name="primary_fixed_dim">#B1C6F8</color>
+
+    <!-- SECONDARY COLORS -->
+    <color name="secondary">#FED4E8</color>
+    <color name="secondary_container">#FED4E8</color>
+    <color name="secondary_fixed">#FFD8EA</color>
+
+    <!-- BACKGROUND & SURFACE -->
+    <color name="background">#FCF8FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F6F2FC</color>
+    <color name="surface_secondary">#F0ECF6</color>
+    <color name="surface_tertiary">#EAE6F0</color>
+
+    <!-- TEXT COLORS -->
+    <color name="text_primary">#1B1B22</color>
+    <color name="text_secondary">#44474E</color>
+    <color name="text_muted">#75777F</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- STATUS COLORS -->
+    <color name="success">#159B76</color>
+    <color name="success_container">#1A159B76</color>
+
+    <color name="error">#BA1A1A</color>
+    <color name="error_container">#FFDAD6</color>
+
+    <color name="warning">#904D08</color>
+    <color name="warning_container">#FFDCC4</color>
+
+    <!-- BOTTOM NAVIGATION -->
+    <color name="bottom_nav_selected">#475C87</color>
+    <color name="bottom_nav_unselected">#75777F</color>
+
+    <!-- TRANSPARENT -->
+    <color name="transparent">#00000000</color>
+
 </resources>

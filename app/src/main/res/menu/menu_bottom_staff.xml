@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_tasks"
+        android:icon="@drawable/ic_overview"
+        android:title="Công việc" />
+
+    <item
+        android:id="@+id/nav_rooms"
+        android:icon="@drawable/ic_rooms"
+        android:title="Phòng trọ" />
+
+    <item
+        android:id="@+id/nav_invoices"
+        android:icon="@drawable/ic_invoices"
+        android:title="Hóa đơn" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="Tài khoản" />
+
+</menu>

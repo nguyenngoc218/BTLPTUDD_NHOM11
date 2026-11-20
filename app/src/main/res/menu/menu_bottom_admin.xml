@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_overview"
+        android:icon="@drawable/ic_overview"
+        android:title="Tổng quan" />
+
+    <item
+        android:id="@+id/nav_rooms"
+        android:icon="@drawable/ic_rooms"
+        android:title="Phòng trọ" />
+
+    <item
+        android:id="@+id/nav_invoices"
+        android:icon="@drawable/ic_invoices"
+        android:title="Hóa đơn" />
+
+    <item
+        android:id="@+id/nav_statistics"
+        android:icon="@drawable/ic_statistics"
+        android:title="Thống kê" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="Cài đặt" />
+
+</menu>
