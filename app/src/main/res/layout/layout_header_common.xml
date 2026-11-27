@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Khung header dùng chung: cố định kích thước, nền và padding; nội dung do từng màn hình tự điền -->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/headerCommonContainer"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:background="@drawable/bg_header_gradient"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="12dp" />
