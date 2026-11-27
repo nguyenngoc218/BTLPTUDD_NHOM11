@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cuon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="24dp">
+        <include
+            android:id="@+id/headerCommon"
+            layout="@layout/layout_header_common" />
+        </include>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:layout_marginTop="-88dp"
+            android:paddingHorizontal="20dp"
+            android:paddingVertical="12dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_header_gradient"
+            >
+            <TextView
+                android:id="@+id/tvHeaderTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Quản lý tòa nhà"
+                android:textAppearance="@style/TextAppearance.CozyKey.Headline"
+                android:textColor="@color/primary" />
+            <TextView
+                android:id="@+id/tvHeaderSummaryPill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:background="@drawable/bg_pill_secondary"
+                android:paddingHorizontal="12dp"
+                android:paddingVertical="6dp"
+                android:text="0 Tòa nhà"
+                android:textAppearance="@style/TextAppearance.CozyKey.Caption"
+                android:textColor="@color/primary"
+                android:textStyle="bold" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
