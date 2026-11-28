@@ -170,7 +170,7 @@
 
             <!-- Ô 2: Phòng trống -->
             <com.google.android.material.card.MaterialCardView
-                style="@style/Widget.CozyKey.Card.Variant"
+                android:background="@drawable/bg_pill_secondary"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="6dp"
